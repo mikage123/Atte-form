@@ -46,3 +46,7 @@ DB_DATABASE=laravel_db
 DB_USERNAME=laravel_user
 
 DB_PASSWORD=laravel_pass
+
+アプリケーションキーを作成
+
+php artisan key:generate
