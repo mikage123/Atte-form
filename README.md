@@ -23,3 +23,21 @@ ER図
 (https://github.com/mikage123/Atte-form/assets/149714537/200592fa-dbdb-4e94-bb01-018cee96a013)
 
 環境構築
+git@github.com:mikage123/Atte-form.git
+
+docker-compose up -d --build
+
+docker-compose exec php bash
+
+composer install
+
+.env.exampleファイルから/envを作成し、環境変数を変更
+
+.envに以下の環境変数を追加
+
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=laravel_db
+DB_USERNAME=laravel_user
+DB_PASSWORD=laravel_pass
