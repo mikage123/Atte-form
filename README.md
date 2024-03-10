@@ -3,7 +3,7 @@
 
 作成した目的
 
-
+勤怠の管理を楽にするため
 
 アプリケーションURL
 
@@ -50,3 +50,7 @@ DB_PASSWORD=laravel_pass
 アプリケーションキーを作成
 
 php artisan key:generate
+
+開発環境:http//localhost/
+
+phpmyadmin:http://localhost:8080/
