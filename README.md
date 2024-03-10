@@ -51,6 +51,6 @@ DB_PASSWORD=laravel_pass
 
 php artisan key:generate
 
-開発環境:http//localhost/
+開発環境:http://localhost/
 
 phpmyadmin:http://localhost:8080/
